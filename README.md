@@ -180,14 +180,14 @@ SideMenuStyle(
   itemOuterPadding: const EdgeInsets.symmetric(horizontal: 5.0),
   toggleColor: Colors.black54,
 
-  // Additional properties for expandable items
-  selectedTitleTextStyleExpandable: TextStyle(color: Colors.white), // Adjust the style as needed
-  unselectedTitleTextStyleExpandable: TextStyle(color: Colors.black54), // Adjust the style as needed
-  selectedIconColorExpandable: Colors.white, // Adjust the color as needed
-  unselectedIconColorExpandable: Colors.black54, // Adjust the color as needed
+  // Additional properties for expansion items
+  selectedTitleTextStyleExpansion: TextStyle(color: Colors.white), // Adjust the style as needed
+  unselectedTitleTextStyleExpansion: TextStyle(color: Colors.black54), // Adjust the style as needed
+  selectedIconColorExpansion: Colors.white, // Adjust the color as needed
+  unselectedIconColorExpansion: Colors.black54, // Adjust the color as needed
   arrowCollapse: Colors.blueGrey, // Adjust the color as needed
   arrowOpen: Colors.lightBlueAccent, // Adjust the color as needed
-  iconSizeExpandable: 24.0, // Adjust the size as needed
+  iconSizeExpansion: 24.0, // Adjust the size as needed
 ),
 ```
 
@@ -247,13 +247,13 @@ style: SideMenuStyle(
 | itemOuterPadding                  | `EdgeInsetsGeometry` | Outer padding of menu item                                              |
 | itemHeight                        | `double`         | Height of menu item                                                        |
 | showHamburger                     | `bool`           | Property that will show Hamburger on top-left corner if set as `true`      |
-| selectedTitleTextStyleExpandable  | `TextStyle?`     | Style of `title` text when item is selected in `SideMenuExpandableItem`    |
-| unselectedTitleTextStyleExpandable| `TextStyle?`     | Style of `title` text when item is unselected in `SideMenuExpandableItem`  |
-| selectedIconColorExpandable       | `Color?`         | Color of icon when item is selected in `SideMenuExpandableItem`            |
-| unselectedIconColorExpandable     | `Color?`         | Color of icon when item is unselected in `SideMenuExpandableItem`          |
-| arrowCollapse                     | `Color?`         | Color of arrow in collapsed state in `SideMenuExpandableItem`              |
-| arrowOpen                         | `Color?`         | Color of arrow in open state in `SideMenuExpandableItem`                   |
-| iconSizeExpandable                | `double?`        | Size of icon on `SideMenuExpandableItem`                                   |
+| selectedTitleTextStyleExpansion  | `TextStyle?`     | Style of `title` text when item is selected in `SideMenuExpansionItem`    |
+| unselectedTitleTextStyleExpansion| `TextStyle?`     | Style of `title` text when item is unselected in `SideMenuExpansionItem`  |
+| selectedIconColorExpansion       | `Color?`         | Color of icon when item is selected in `SideMenuExpansionItem`            |
+| unselectedIconColorExpansion     | `Color?`         | Color of icon when item is unselected in `SideMenuExpansionItem`          |
+| arrowCollapse                     | `Color?`         | Color of arrow in collapsed state in `SideMenuExpansionItem`              |
+| arrowOpen                         | `Color?`         | Color of arrow in open state in `SideMenuExpansionItem`                   |
+| iconSizeExpansion                | `double?`        | Size of icon on `SideMenuExpansionItem`                                   |
 
 
 
